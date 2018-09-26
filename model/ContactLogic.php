@@ -4,7 +4,7 @@ require 'DataHandler.php';
  class ContactsLogic {
 
  function __construct(){
-    $this->DataHandler = new Datahandler("mysql","localhost", "mvc", "a-mvc", "123");
+    $this->DataHandler = new Datahandler("mysql","localhost", "mvc", "root", "");
  }
 
  function __destruct(){
