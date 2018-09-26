@@ -7,7 +7,7 @@
 	   {
 	     $url = $_SERVER['REQUEST_URI'];
 	     $packets = explode('/',$url);
-		 //var_dump($packets);
+		 var_dump($packets);
 	     $this->determineDestination($packets);
 	   }
 

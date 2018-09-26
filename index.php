@@ -8,7 +8,8 @@
 <body>
 	<?php
 		require_once("model/router.php");
-		define ('APP_DIR', "D:/xampp/htdocs/mvc_router/");
+		require_once("config.php")
+		define ('APP_DIR', $config['base_url']);
 
 		 $router = new Router();
 	?>

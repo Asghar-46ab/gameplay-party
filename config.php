@@ -1,4 +1,4 @@
 <?php
-$config['base_url']= "http://localhost/gameplay-party//";
+$config['base_url'] = "D:/xampp/htdocs/git/gameplay-party/";
 
 ?>
