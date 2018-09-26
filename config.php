@@ -1,4 +1,4 @@
 <?php
-$config['base_url']= "/Applications/XAMPP/xamppfiles/htdocs/gameplay-party/";
+$config['base_url']= "/Applications/XAMPP/xamppfiles/htdocs/gameplay-party//";
 
 ?>
