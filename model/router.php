@@ -27,7 +27,7 @@
 				$this->sendToDestination($packets[2],$packets[3],$params);
 			}
 			else {
-				echo "hij is leeg";
+				echo "hij is leg";
 			};
 
 			//$params = array_slice($packets, 4);
