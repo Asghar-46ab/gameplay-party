@@ -7,8 +7,10 @@
     }
 
     public function method($params = ""){
-        echo "Dit is standaard tekst, hieronder komt de param die je meegeeft.<br>";
-        var_dump($params);
+        $table = "Dit is standaard tekst, hieronder komt de param die je meegeeft.<br>";
+        
+
+        include "view/contacts.php";
     }
 
     public function test($params = ""){
