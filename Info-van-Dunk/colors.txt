@@ -1,0 +1,10 @@
+colors zwart voor text
+
+#34495e :: Wet Asphalt
+#2c3e50 :: Midnoght blue
+
+colors green voor
+
+#C4E538 :: Energos
+#A3CB38 :: Android green
+#009432 :: Pixelted grass
