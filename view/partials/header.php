@@ -2,7 +2,7 @@
 <html lang="nl">
 <head>
 
-    <!-- Required meta tags -->
+        <!-- Required meta tags -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
         <!-- algemeen style-->
-    <link rel="stylesheet" href="assets/style.css">
+        <link href="view/assets/css/style.css" rel="stylesheet">
 
     <title>Game Play Party</title>
     

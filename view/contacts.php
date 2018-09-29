@@ -1,6 +1,6 @@
 
 <?php
-require 'header.php';
+require 'partials/header.php';
 echo $table;
-require 'footer.php';
+require 'partials/footer.php';
 ?>
