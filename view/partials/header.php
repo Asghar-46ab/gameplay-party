@@ -4,7 +4,7 @@
 
 
         <!-- algemeen style-->
-        <link rel="stylesheet" type="text/css" href= 'view/assets/css/style.css'>
+        <link rel="stylesheet" type ="text/css" href='./assets/css/mainStyle.css'>
 
         <!-- Required meta tags -->
     <meta charset="UTF-8">
