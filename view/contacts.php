@@ -1,6 +1,6 @@
 
 <?php
 require 'partials/header.php';
-echo $table;
+// echo $table;
 require 'partials/footer.php';
 ?>
