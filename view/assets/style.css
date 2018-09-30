@@ -128,3 +128,9 @@ body{
    flex: 0 0 auto;
    -webkit-flex: 0 0 auto;
 }
+#landingspagina{
+  background: url('images/landingspagina_stoelen.jpg') no-repeat;
+  background-size:  cover;
+  width: auto;
+  height: auto;
+}

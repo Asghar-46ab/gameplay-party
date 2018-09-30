@@ -1,2 +1,2 @@
-
-<h1>landingspagina</h1>
+<div id='landingspagina'>
+</div>

@@ -42,6 +42,6 @@ class Router
 
   public function __destruct()
   {
-    //
+
   }
 }
