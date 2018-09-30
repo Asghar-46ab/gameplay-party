@@ -5,7 +5,7 @@
 
         <!-- algemeen style-->
         <link rel="stylesheet" type ="text/css" href='./assets/css/mainStyle.css'>
-        <link rel="stylesheet" type ="text/css" href='view/assets/style.css'>
+        <link rel="stylesheet" type ="text/css" href='view/assets/mainStyle.css'>
         <!-- Required meta tags -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
