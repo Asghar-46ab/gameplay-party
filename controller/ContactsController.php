@@ -5,21 +5,17 @@
         public function __construct() {
         $this->ContactsLogic = new ContactsLogic();
     }
-
-    public function method($params = ""){
-        $content = "Dit is standaard tekst, hieronder komt de param die je meegeeft.<br>";
-    }
-
-
     public function Contact(){
-        $table = include "view/contacts.php";
+       include "view/contacts.php";
 
         
     }
 
-    public function test($params = ""){
-        echo "BLA BLA<br>";
-        echo "$params";
+    public function Bioscopen(){
+
+        $content = $this->ContactsLogic->DisplayBioscopen();
+        print_r($content) ;
+        // require_once "./index.php";
     }
 
 }

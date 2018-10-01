@@ -53,7 +53,7 @@
         <a class="nav-link" href="./landingspagina">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="./bioscopen">Bioscopen</a>
+        <a class="nav-link" href="http://localhost/gameplay-party/ContactsController/Bioscopen">Bioscopen</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="http://localhost/gameplay-party/ContactsController/Contact">contact</a>

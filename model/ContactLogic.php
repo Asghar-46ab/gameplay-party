@@ -3,63 +3,66 @@ require 'DataHandler.php';
 
  class ContactsLogic {
 
- function __construct(){
-    $this->DataHandler = new Datahandler("mysql","localhost", "mvc", "root", "");
- }
+  function __construct(){
+      $this->DataHandler = new Datahandler("mysql","localhost", "gameplayparty", "root", "");
+  }
 
- function __destruct(){
-  // echo "destroying" . $this->DataHandler;
- }
+  function __destruct(){
+    // echo "destroying" . $this->DataHandler;
+  }
 
- function createContact($name, $phone, $email, $location){
-   try {
+  public function ReadBioscopen(){
 
-     return $this->DataHandler->CreateData("INSERT INTO `contacts` (`name`, `phone`, `email`, `location`) VALUES ('$name', '$phone', '$email', '$location');");
-   } catch (Exception $e) {
-     throw $e;
-   }
- }
+    try {
 
- function readContact($id){
-   try {
 
-     return $this->DataHandler->ReadData("SELECT * FROM contacts where id = '$id'");
+      $sql = "SELECT * FROM `bioscopen`";
 
-   } catch (Exception $e) {
-     throw $e;
-   }
+      $stmt = $this->DataHandler->Read($sql);
+      return $stmt;
 
- }
+    } catch (Exception $e) {
+        throw $e;
+    }
 
- function readContacts(){
-   try {
+  }
 
-       return $this->DataHandler->ReadData("SELECT * FROM contacts");
+  public function DisplayBioscopen(){
 
-   } catch (Exception $e){
-     throw $e;
-   }
- }
+    $array = $this->ReadBioscopen();
 
- public function updateContact($name, $phone, $email, $location, $id) {
-   try {
 
-       return $this->DataHandler->UpdateData("UPDATE contacts SET `name` = '$name', `phone` = '$phone', `email` = '$email', `location` = '$location' WHERE id = '$id'");
+        $html = "<div class='row'>";
 
-   } catch (Exception $e){
-     throw $e;
-   }
- }
- public function deleteContact($id) {
-   try {
+        foreach ($array as $k => $v) {
 
-     return $this->DataHandler->DeleteData("DELETE FROM contacts where id = '$id'");
+            $html .= "<div class='col-4' id='cardbody'>";
+            $html .= "<div class='card' style='width: 18rem;'>";
+            $naam = $v["bios_naam"];
+            $id = $v["bios_id"];
+            $html .= "<div class='card-body'>";
 
-   } catch (Exception $e) {
-     throw $e;
-   }
- }
-}
+            $html .= "<ul class='list-group list-group-flush'>";
+            $html .= "<li class='list-group-item'><a href='index.php?op=details&id=$id'> <h5 class='card-title'>$naam</h5></a></li>";
+
+            $html .= "<li class='list-group-item'><a href='index.php?op=details&id=$id' class='btn btn-primary' id='details-button'>Details</a>
+</li>";
+
+            $html .= "</ul>";
+            $html .= "</div>";
+            $html .= "</div>";
+            $html .= "</div>";
+        }
+
+        $html .= "</div>";
+
+        return $html;
+
+
+    }
+
+  }
+
 
 
 ?>

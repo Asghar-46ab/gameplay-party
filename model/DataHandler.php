@@ -19,22 +19,11 @@ function CreateData($sql){
     }
   }
 
-  function ReadData($sql){
-
+  function Read($sql){
     $stmt = $this->conn->prepare($sql);
     $stmt->execute();
-
-    $array = $stmt->fetchAll(PDO::FETCH_ASSOC);
-    return $array;
-
-  }
-
-  function UpdateData($sql){
-    $this->conn->exec($sql);
-  }
-
-  function DeleteData($sql){
-    $this->conn->exec($sql);
+    $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
+    return $result;
   }
 }
 ?>

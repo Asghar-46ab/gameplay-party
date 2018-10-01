@@ -7,6 +7,7 @@
 	//moet op deze volgorde staan!
 	include 'view/partials/header.php';
 	$router = new Router();
+	echo $content;
 	include 'view/partials/footer.php';
 	//
 	// $uri = $_SERVER['REQUEST_URI'];
