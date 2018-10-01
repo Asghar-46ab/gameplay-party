@@ -37,7 +37,7 @@
 
 	    public function sendToDestination($classname,$method,$params)
 	    {
-	      $class =  APP_DIR . '//controller/' . $classname . '.php';
+	      $class =  APP_DIR . '/controller/' . $classname . '.php';
 	      require_once($class);
 	      // Create object and call method
 	      $obj = new $classname;
