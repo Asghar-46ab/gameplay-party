@@ -7,10 +7,14 @@
     }
 
     public function method($params = ""){
-        $table = "Dit is standaard tekst, hieronder komt de param die je meegeeft.<br>";
-        
+        $content = "Dit is standaard tekst, hieronder komt de param die je meegeeft.<br>";
+    }
 
-        include "view/contacts.php";
+
+    public function Contact(){
+        $table = include "view/contacts.php";
+
+        
     }
 
     public function test($params = ""){

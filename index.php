@@ -1,8 +1,8 @@
 <?php
 	require_once("model/router.php");
-	//require_once("config.php");
+	require_once("config.php");
 
-	//define ('APP_DIR', $config['base_url']);
+	define ('APP_DIR', $config['base_url']);
 
 	//moet op deze volgorde staan!
 	include 'view/partials/header.php';
