@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="nl">
 <head>
+<!-- Footer -->
 
 
         <!-- algemeen style-->

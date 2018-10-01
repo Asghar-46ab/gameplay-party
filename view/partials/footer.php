@@ -1,4 +1,5 @@
 <!-- Footer -->
+<!-- Footer -->
 <footer class="page-footer font-small stylish-color-dark pt-4">
 
     <!-- Footer Links -->
