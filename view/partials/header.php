@@ -56,7 +56,7 @@
         <a class="nav-link" href="http://localhost/gameplay-party/ContactsController/Bioscopen">Bioscopen</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="http://localhost/gameplay-party/ContactsController/Contact">contact</a>
+        <a class="nav-link" href="http://localhost/gameplay-party/ContactsController/Contact">Contact</a>
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
