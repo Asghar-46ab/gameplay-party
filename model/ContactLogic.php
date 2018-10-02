@@ -55,5 +55,37 @@ require 'DataHandler.php';
 
         return $html;
     }
+    public function readAdminProducts()
+    {
+
+        $offset = isset($_GET['page']) ? ($_GET['page'] * 5) : 0;
+
+        try {
+            return $this->DataHandler->ReadData("SELECT image_path,EAN,price,platform,product_name,color,brand FROM `products` INNER JOIN `photos`  LIMIT 5 OFFSET $offset");
+        } catch (Exeption $e) {
+            throw $e;
+        }
+    }
+    public function printTable($array)
+    {
+        $table = "<table class='table'>";
+
+        foreach ($array as $key => $value) {
+            $table .= "<thead class='thead-inverse'><tr>";
+
+            foreach ($value as $k => $v) {
+                $table .= "<th>" . $k . "</th>";
+            }
+            break;
+        }
+        foreach ($array as $k => $v) {
+            $table .= "<tr>";
+            foreach ($v as $key => $value) {
+                $table .= "<td>" . $value . "</td>";
+            }
+        }
+        $table .= "</table>";
+        return $table;
+    }
   }
 ?>

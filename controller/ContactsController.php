@@ -21,5 +21,10 @@
         include "view/home.php";
     }
 
+    public function Admin(){
+
+        $content = $this->ContactsLogic->ReadBioscopen();
+        include "view/admin.php";
+    }
 }
 ?>
