@@ -27,12 +27,7 @@
         </div>
     </div>
 </div>
-<!-- <hr class="mb-5 mt-5">
-<div class="container-fluid">
-    <div class="embed-responsive embed-responsive-21by9">
-        <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2451.377988051701!2d5.095329079931542!3d52.09105207578099!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c66f65451cd7b3%3A0xa52fd8e5ccf60705!2sJan+Pieterszoon+Coenstraat%2C+Utrecht!5e0!3m2!1snl!2snl!4v1527578964225" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-    </div> -->
-    <hr class="mb-5 mt-5">
+
 
 
 
@@ -117,4 +112,6 @@
 <!--Section: Contact v.2-->
   </div>
 
-  <?php include 'view/partials/footer.php'; ?>
+  <?php 
+  include 'view/partials/footer.php';
+   ?>

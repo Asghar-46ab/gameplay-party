@@ -1,5 +1,4 @@
-<?php 	include 'view/partials/header.php';?>
+<?php include 'view/partials/header.php';?>
 <h1>bioscopenpagina</h1>
-<?  echo $content;   ?>
-<hr class="mb-5 mt-5">
+<?  echo $content; ?>
 <?php include 'view/partials/footer.php'; ?>
