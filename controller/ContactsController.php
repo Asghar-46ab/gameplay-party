@@ -8,7 +8,6 @@
     }
     public function Contact(){
        include "view/contacts.php";
-
         
     }
 
@@ -19,7 +18,7 @@
     }
 
     public function Home(){
-        $content = "tstt";
+        $content = "home content";
         include "view/home.php";
     }
 
