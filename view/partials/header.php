@@ -37,6 +37,7 @@
 <!-- einde test -->
 
     <title>Game Play Party</title>
+    <img src="../images/path1803.png" alt="X">
 
 </head>
 
