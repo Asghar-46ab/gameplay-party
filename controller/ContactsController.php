@@ -26,5 +26,12 @@
         $content = $this->ContactsLogic->ReadBioscopen();
         include "view/admin.php";
     }
+    
+    public function Login(){
+        $content = "";
+        include "view/inlog.php";
+    }
+
+
 }
 ?>
