@@ -32,11 +32,9 @@ require 'DataHandler.php';
 
     $array = $this->ReadBioscopen();
 
-
         $html = "<div class='row'>";
-
+        
         foreach ($array as $k => $v) {
-
             $html .= "<div class='col-4' id='cardbody'>";
             $html .= "<div class='card' style='width: 18rem;'>";
             $naam = $v["bios_naam"];
@@ -48,26 +46,14 @@ require 'DataHandler.php';
 
             $html .= "<li class='list-group-item'><a href='index.php?op=details&id=$id' class='btn btn-primary' id='details-button'>Details</a>
 </li>";
-
             $html .= "</ul>";
             $html .= "</div>";
             $html .= "</div>";
             $html .= "</div>";
         }
-
         $html .= "</div>";
 
         return $html;
-
-
     }
-
-
-
-
-
   }
-
-
-
 ?>
