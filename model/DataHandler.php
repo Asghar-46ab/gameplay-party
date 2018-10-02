@@ -26,14 +26,14 @@ function CreateData($sql){
     $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
     return $result;
   }
-//   test
-  function ReadData($sql)
-  {
-      $stmt = $this->conn->prepare($sql);
-      $stmt->execute();
 
-      return $stmt->fetchAll(PDO::FETCH_ASSOC);
-  }
-//   einde test
+
+
+function Create($sql){
+    $stmt = $this->conn->prepare($sql);
+    $stmt->execute();
+
+}
+
 }
 ?>

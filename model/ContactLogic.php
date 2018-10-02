@@ -45,7 +45,7 @@ require 'DataHandler.php';
             $html .= "<li class='list-group-item'><a href='index.php?op=details&id=$id'> <h5 class='card-title'>$naam</h5></a></li>";
 
             $html .= "<li class='list-group-item'><a href='index.php?op=details&id=$id' class='btn btn-primary' id='details-button'>Details</a>
-</li>";
+            </li>";
             $html .= "</ul>";
             $html .= "</div>";
             $html .= "</div>";
@@ -55,37 +55,24 @@ require 'DataHandler.php';
 
         return $html;
     }
-    public function readAdminProducts()
-    {
 
-        $offset = isset($_GET['page']) ? ($_GET['page'] * 5) : 0;
 
-        try {
-            return $this->DataHandler->ReadData("SELECT image_path,EAN,price,platform,product_name,color,brand FROM `products` INNER JOIN `photos`  LIMIT 5 OFFSET $offset");
-        } catch (Exeption $e) {
+    public function InsertBioscoppen($naam, $strat, $postcode, $stad, $provincie, $begintijd, $eindtijd, $bereikbaarauto, $bereikbaarov, $bereikbaarfiets, $rolstoeltoegankelijkheid, $voorwaarden){
+
+
+        try{
+
+            $sql = "INSERT INTO `gameplayparty`.`bioscopen` (`naam`, `strat`, `postcode`, `stad`, `provincie`, `begintijd`, `eindtijd`, `bereikbaar_auto`,`bereikbaar_ov`, `bereikbaar_fiets`,`rolstoeltoegankelijkheid`,`voorwaarden`) VALUES ('$naam', '$strat', '$postcode', '$stad', '$provincie', '$begintijd', '$eindtijd', '$bereikbaarauto', '$bereikbaarov', '$bereikbaarfiets', '$rolstoeltoegankelijkheid', '$voorwaarden');";
+
+            $stmt = $this->DataHandler->Create($sql);
+
+        }catch (Exception $e){
             throw $e;
         }
-    }
-    public function printTable($array)
-    {
-        $table = "<table class='table'>";
 
-        foreach ($array as $key => $value) {
-            $table .= "<thead class='thead-inverse'><tr>";
 
-            foreach ($value as $k => $v) {
-                $table .= "<th>" . $k . "</th>";
-            }
-            break;
-        }
-        foreach ($array as $k => $v) {
-            $table .= "<tr>";
-            foreach ($v as $key => $value) {
-                $table .= "<td>" . $value . "</td>";
-            }
-        }
-        $table .= "</table>";
-        return $table;
+
     }
+
   }
 ?>
