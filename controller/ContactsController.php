@@ -15,8 +15,12 @@
     public function Bioscopen(){
 
         $content = $this->ContactsLogic->DisplayBioscopen();
-        print_r($content) ;
-        // require_once "./index.php";
+        include "view/bioscopen.php";
+    }
+
+    public function Home(){
+        $content = "tstt";
+        include "view/home.php";
     }
 
 }
