@@ -6,13 +6,12 @@
 
         <!-- algemeen style-->
         <link rel="stylesheet" type ="text/css" href='./assets/css/mainStyle.css'>
-        <link rel="stylesheet" type ="text/css" href='view/assets/mainStyle.css'>
         <!-- Required meta tags -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <!-- bootstrap css li  -->
+        <!-- bootstrap css link  -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
 
@@ -24,17 +23,6 @@
 
          <!-- Font Awesome  -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-<!-- test -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <!-- Material Design Bootstrap -->
-    <link href="css/mdb.min.css" rel="stylesheet">
-    <!-- Your custom styles (optional) -->
-    <link href="assets/css/style.css" rel="stylesheet">
-    <link href="assets/css/style.css" rel="stylesheet">
-
-<!-- einde test -->
 
     <title>Game Play Party</title>
 
@@ -61,8 +49,8 @@
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+  
+      <a class="btn btn-outline-success my-2 my-sm-0" href="#">Login</a>
     </form>
   </div>
 </nav>
