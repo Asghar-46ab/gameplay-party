@@ -37,14 +37,13 @@
 <!-- einde test -->
 
     <title>Game Play Party</title>
-    <img src="../images/path1803.png" alt="X">
 
 </head>
 
 <body>
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-<a class="navbar-brand" href="http://localhost/gameplay-party/ContactsController/Home">Game Play Party</a>
+<a class="navbar-brand" href="http://localhost/gameplay-party/ContactsController/Home"><img src="../images/path1803.png" height="55px" alt="X"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
