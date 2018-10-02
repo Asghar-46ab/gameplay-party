@@ -52,7 +52,7 @@
     public function CreatBioscoop(){
         if(isset($_POST["create"])){
             $naam = $_POST["naam"];
-            $strat = $_POST["strat"];
+            $straat = $_POST["straat"];
             $postcode = $_POST["postcode"];
             $stad = $_POST["stad"];
             $provincie = $_POST["provincie"];
@@ -63,12 +63,16 @@
             $bereikbaarfiets = $_POST["bereikbaarfiets"];
             $rolstoeltoegankelijkheid = $_POST["rolstoeltoegankelijkheid"];
             $voorwaarden = $_POST["voorwaarden"];
-            $content = $this->ContactsLogic->InsertBioscoppen($naam, $strat, $postcode, $stad, $provincie, $begintijd, $eindtijd, $bereikbaarauto, $bereikbaarov, $bereikbaarfiets, $rolstoeltoegankelijkheid, $voorwaarden);
+            $content = $this->ContactsLogic->InsertBioscoppen($naam, $straat, $postcode, $stad, $provincie, $begintijd, $eindtijd, $bereikbaarauto, $bereikbaarov, $bereikbaarfiets, $rolstoeltoegankelijkheid, $voorwaarden);
 
-// header("Location: http://localhost/gameplay-party/ContactsController/CreatBioscoop");
+        header("Location: http://localhost/gameplay-party/ContactsController/CreatBioscoop");
+        echo "<script>alert('bioscoop wordt gemaakt');<script>";
+
         }else{
 
             include "view/createBios.php";
+           
+            
         }
     }
 

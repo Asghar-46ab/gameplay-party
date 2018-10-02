@@ -57,12 +57,12 @@ require 'DataHandler.php';
     }
 
 
-    public function InsertBioscoppen($naam, $strat, $postcode, $stad, $provincie, $begintijd, $eindtijd, $bereikbaarauto, $bereikbaarov, $bereikbaarfiets, $rolstoeltoegankelijkheid, $voorwaarden){
+    public function InsertBioscoppen($naam, $straat, $postcode, $stad, $provincie, $begintijd, $eindtijd, $bereikbaarauto, $bereikbaarov, $bereikbaarfiets, $rolstoeltoegankelijkheid, $voorwaarden){
 
 
         try{
 
-            $sql = "INSERT INTO `gameplayparty`.`bioscopen` (`naam`, `strat`, `postcode`, `stad`, `provincie`, `begintijd`, `eindtijd`, `bereikbaar_auto`,`bereikbaar_ov`, `bereikbaar_fiets`,`rolstoeltoegankelijkheid`,`voorwaarden`) VALUES ('$naam', '$strat', '$postcode', '$stad', '$provincie', '$begintijd', '$eindtijd', '$bereikbaarauto', '$bereikbaarov', '$bereikbaarfiets', '$rolstoeltoegankelijkheid', '$voorwaarden');";
+            $sql = "INSERT INTO `gameplayparty`.`bioscopen` (`bios_naam`, `adres`, `postcode`, `stad`, `provincie`, `begintijd`, `eindtijd`, `bereikbaar_auto`,`bereikbaar_ov`, `bereikbaar_fiets`,`rolstoeltoegankelijkheid`,`voorwaarden`) VALUES ('$naam', '$straat', '$postcode', '$stad', '$provincie', '$begintijd', '$eindtijd', '$bereikbaarauto', '$bereikbaarov', '$bereikbaarfiets', '$rolstoeltoegankelijkheid', '$voorwaarden');";
 
             $stmt = $this->DataHandler->Create($sql);
 

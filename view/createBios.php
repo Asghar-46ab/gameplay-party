@@ -1,4 +1,5 @@
-<?php 	include 'view/partials/header.php';?>
+<?php 	include 'view/partials/header.php';
+?>
 
 <h1>bioscopen Aanmaken</h1>
 
@@ -7,8 +8,8 @@
     <label for="naam">Bioscoop naam</label>
     <input type="text"  name="naam" ><br/>
 
-    <label for="strat">Straat</label>
-    <input type="text"  name="strat" ><br/>
+    <label for="straat">Straat</label>
+    <input type="text"  name="straat" ><br/>
 
     <label for="postcode">Postcode</label>
     <input type="text"  name="postcode" ><br/>
@@ -20,10 +21,10 @@
     <input type="text"  name="provincie" ><br/>
 
     <label for="begintijd">Begintijd</label>
-    <input type="date"  name="begintijd" ><br/>
+    <input type="datetime"  name="begintijd" ><br/>
 
     <label for="eindtijd">Eindtijd</label>
-    <input type="date"  name="eindtijd" ><br/>
+    <input type="datetime"  name="eindtijd" ><br/>
 
     <label for="bereikbaarauto">Bereikbaar auto</label>
     <input type="text"  name="bereikbaarauto" ><br/>
@@ -35,12 +36,12 @@
     <input type="text"  name="bereikbaarfiets" ><br/>
 
     <label for="rolstoeltoegankelijkheid">Rolstoel toegankelijkheid</label>
-    <input type="number"  name="rolstoeltoegankelijkheid" ><br/>
+    <input type="text"  name="rolstoeltoegankelijkheid" ><br/>
 
     <label for="voorwaarden">Voorwaarden</label>
     <input type="text"  name="voorwaarden" ><br/>
 
-    <input type="submit" value="Creat" name="create">
+    <input type="submit" value="create" name="create">
 </form>
 
 <?php include 'view/partials/footer.php'; ?>
