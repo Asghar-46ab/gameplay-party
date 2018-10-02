@@ -1,4 +1,4 @@
-<!-- nn -->
+<?php 	include 'view/partials/header.php';?>
 <div class="container">
     <div class="row">
         <div class="mb-5 mt-5 col">
@@ -38,3 +38,5 @@
 
 
   </div>
+
+  <?php include 'view/partials/footer.php'; ?>
