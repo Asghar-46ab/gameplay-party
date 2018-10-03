@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="nl">
+
 <head>
-<!-- Footer -->
 
+        <!-- algemeen style -->
+    <link rel="stylesheet" type="text/css" href='<?= BASE ?>/view/assets/css/mainStyle.css'>
 
-        <!-- algemeen style-->
-        <link rel="stylesheet" type="text/css" href='<?= BASE ?>/view/assets/css/mainStyle.css'>
         <!-- Required meta tags -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,10 +14,6 @@
         <!-- bootstrap css link  -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-
-
-
-
          <!-- Font Awesome  -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
@@ -25,35 +21,6 @@
 
 </head>
 
+<header>header komt hier </header>
+<nav>nav komt hier</nav>
 <body>
-
-<nav id="nav" class="navbar navbar-expand-lg navbar-dark bg-dark">
-<a class="navbar-brand" href="http://localhost/gameplay-party/ContactsController/Home"><img src="../images/path1803.png" height="55px" alt="X"></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-      <li class="nav-item active">
-        <a class="nav-link" href="http://localhost/gameplay-party/ContactsController/Home">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="http://localhost/gameplay-party/ContactsController/Bioscopen">Bioscopen</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="http://localhost/gameplay-party/ContactsController/Contact">Contact</a>
-      </li>
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-  
-      <a class="btn btn-outline-success my-2 my-sm-0" href="http://localhost/gameplay-party/ContactsController/Login">Login</a>
-    </form>
-  </div>
-</nav>
-
-
-<!--page content-->
-<div class="row">
-
-    <div id="content-page" class="col-12">
