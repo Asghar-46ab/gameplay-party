@@ -18,7 +18,7 @@ class Router
 
   public function determineDestination($filtered)
   {
-    var_dump($filtered[2] );
+    var_dump($filtered[2]);
     //$filtered[1] = gameplay-party = root project
     //$filtered[2] = gekozen pagina = php pagina in view map
     //$filtered[3] = classname      = classname en filename
