@@ -1,3 +1,9 @@
 body, html {
     background-color: grey;
 }
+.mySlides {
+  display:none;
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
+}

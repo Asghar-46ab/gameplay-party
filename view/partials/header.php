@@ -4,7 +4,7 @@
 <head>
 
         <!-- algemeen style -->
-    <link rel="stylesheet" type="text/css" href="<?php APP_DIR . '../assets/css/mainStyle.css' ?>"> 
+    <link rel="stylesheet" type="text/css" href='../assets/css/mainStyle.css'>
 
         <!-- Required meta tags -->
     <meta charset="UTF-8">
