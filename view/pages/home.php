@@ -1,12 +1,15 @@
-<?php include '../partials/header.php';
-// deze variable print wat heeft in Home methode gekregen../images/landingspagina_stoelen.jpg
-// echo $content;
-?>
+<?php include '../partials/header.php';?>
 <div class="row">
   <div id="sliderHome" class="col-12">
     <img class="mySlides" src="http://www.provoke-online.com/images/All_Articles/Lifestyle/selain_popcorn_nih_12_camilan_nonton_bioskop_di_berbagai_negara/mov.jpg">
     <img class="mySlides" src="https://www.rd.com/wp-content/uploads/2017/11/11_Clean__Things-a-Movie-Theater-Employee-Won%E2%80%99t-Tell-You_434909068-FabrikaSimf-760x506.jpg">
     <img class="mySlides" src="https://dordtcentraal.nl/wp-content/uploads/2018/07/kinepolis.jpg">
+
+    <div class="col-12 sliderButtonDiv">
+      <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="changeSlide(1)"></span>
+      <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="changeSlide(2)"></span>
+      <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="changeSlide(3)"></span>
+    </div>
   </div>
 </div>
 <div class="row">
@@ -17,4 +20,4 @@
   </div>
   <div class="col-2"></div>
 </div>
-<?php include '../partials/footer.php'; ?>
+<?php include '../partials/footer.php';?>
