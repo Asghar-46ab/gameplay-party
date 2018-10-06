@@ -10,10 +10,13 @@ function slider()
   var i;
   //haalt aantal slides op en zet ze in een NodeList//
   var nodeListSlides = document.getElementsByClassName("mySlides");
+
+  var nodeListSlideButtons = document.getElementsByClassName("sliderButton");
   //maakt slides in onzichtbaar, css {display: none}//
   for (i = 0; i < nodeListSlides.length; i++)
   {
     nodeListSlides[i].style.display = "none";
+    nodeListSlideButtons[i].style.backgroundColor = "";
   }
 
 
@@ -26,6 +29,7 @@ function slider()
   }
   //maakt de huidige slide zichtbaar//
   nodeListSlides[slideNummer-1].style.display = "block";
+  nodeListSlideButtons[slideNummer-1].style.backgroundColor = "white";
   //hoe snel de slider veranderd//
   timeOut = setTimeout(slider, 4000);
 }
