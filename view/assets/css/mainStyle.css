@@ -1,3 +1,4 @@
+/* zorgt ervoor dat elementen niet uit de grid vallen als css:{padding} wordt gebruikt */
 * {
     box-sizing: border-box;
 }
@@ -6,12 +7,12 @@ body{
   color: white;
 }
 /* Grid */
-/* For mobile phones: */
+/* telefoon en default */
 [class*="col-"] {
     width: 100%;
 }
 @media only screen and (min-width: 768px) {
-    /* For desktop: */
+    /* desktop */
     .col-1 {width: 8.33%;}
     .col-2 {width: 16.66%;}
     .col-3 {width: 25%;}
@@ -27,15 +28,23 @@ body{
 }
 /* Grid */
 
-/* Give grid class padding and float */
+/* geeft alle col classes padding en float */
 [class*="col-"] {
     float: left;
     padding: 15px;
     border: 1px solid red;
 }
-
+/* alle elementen in elke class row */
 .row::after {
     content: "";
     clear: both;
     display: table;
+}
+
+/* slice en crop de slider images */
+.mySlides{
+  position: relative;
+  object-fit: cover;
+  width: 100%;
+  height: 400px;
 }

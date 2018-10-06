@@ -3,13 +3,11 @@
 // echo $content;
 ?>
 <div class="row">
-  <div class="col-3"></div>
-  <div id="sliderHome" class="col-6">
-    <img class="mySlides" src="http://www.provoke-online.com/images/All_Articles/Lifestyle/selain_popcorn_nih_12_camilan_nonton_bioskop_di_berbagai_negara/mov.jpg" style="width:100%">
-    <img class="mySlides" src="https://www.rd.com/wp-content/uploads/2017/11/11_Clean__Things-a-Movie-Theater-Employee-Won%E2%80%99t-Tell-You_434909068-FabrikaSimf-760x506.jpg" style="width:100%">
-    <img class="mySlides" src="https://dordtcentraal.nl/wp-content/uploads/2018/07/kinepolis.jpg" style="width:100%">
+  <div id="sliderHome" class="col-12">
+    <img class="mySlides" src="http://www.provoke-online.com/images/All_Articles/Lifestyle/selain_popcorn_nih_12_camilan_nonton_bioskop_di_berbagai_negara/mov.jpg">
+    <img class="mySlides" src="https://www.rd.com/wp-content/uploads/2017/11/11_Clean__Things-a-Movie-Theater-Employee-Won%E2%80%99t-Tell-You_434909068-FabrikaSimf-760x506.jpg">
+    <img class="mySlides" src="https://dordtcentraal.nl/wp-content/uploads/2018/07/kinepolis.jpg">
   </div>
-  <div class="col-3"></div>
 </div>
 <div class="row">
   <div class="col-2"></div>
