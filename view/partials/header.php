@@ -3,12 +3,10 @@
 
 <head>
 
-        <!-- algemeen style -->
+    <!-- algemeen style -->
     <link rel="stylesheet" type="text/css" href='../assets/css/mainStyle.css'>
 
-    <!-- w3schools style -->
-    <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
-        <!-- Required meta tags -->
+    <!-- Required meta tags -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -20,9 +18,24 @@
 
 </head>
 <div class="row">
-  <header class="col-12">header komt hier </header>
+  <header class="col-12">
+    <img src="../images/gpp.svg" alt="">
+  </header>
 </div>
 <div class="row">
-  <nav class="col-12">nav komt hier</nav>
+  <nav class="col-12">
+    <div class="col-3">
+      <a href="#">Home</a>
+    </div>
+    <div class="col-3">
+      <a href="#">Bioscopen</a>
+    </div>
+    <div class="col-3">
+      <a href="#">Contact</a>
+    </div>
+    <div class="col-3">
+      <a href="#">Inlog</a>
+    </div>
+  </nav>
 </div>
 <body>

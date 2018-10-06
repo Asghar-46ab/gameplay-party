@@ -29,7 +29,7 @@ function slider()
   }
   //maakt de huidige slide zichtbaar//
   nodeListSlides[slideNummer-1].style.display = "block";
-  nodeListSlideButtons[slideNummer-1].style.backgroundColor = "white";
+  nodeListSlideButtons[slideNummer-1].style.backgroundColor = "#34495e";
   //hoe snel de slider veranderd//
   timeOut = setTimeout(slider, 4000);
 }
