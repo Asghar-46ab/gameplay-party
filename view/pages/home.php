@@ -2,14 +2,21 @@
 // deze variable print wat heeft in Home methode gekregen../images/landingspagina_stoelen.jpg
 // echo $content;
 ?>
-<div id="sliderHome">
-  <img class="mySlides" src="http://www.provoke-online.com/images/All_Articles/Lifestyle/selain_popcorn_nih_12_camilan_nonton_bioskop_di_berbagai_negara/mov.jpg" style="width:100%">
-  <img class="mySlides" src="https://www.rd.com/wp-content/uploads/2017/11/11_Clean__Things-a-Movie-Theater-Employee-Won%E2%80%99t-Tell-You_434909068-FabrikaSimf-760x506.jpg" style="width:100%">
-  <img class="mySlides" src="https://dordtcentraal.nl/wp-content/uploads/2018/07/kinepolis.jpg" style="width:100%">
-
+<div class="row">
+  <div class="col-3"></div>
+  <div id="sliderHome" class="col-6">
+    <img class="mySlides" src="http://www.provoke-online.com/images/All_Articles/Lifestyle/selain_popcorn_nih_12_camilan_nonton_bioskop_di_berbagai_negara/mov.jpg" style="width:100%">
+    <img class="mySlides" src="https://www.rd.com/wp-content/uploads/2017/11/11_Clean__Things-a-Movie-Theater-Employee-Won%E2%80%99t-Tell-You_434909068-FabrikaSimf-760x506.jpg" style="width:100%">
+    <img class="mySlides" src="https://dordtcentraal.nl/wp-content/uploads/2018/07/kinepolis.jpg" style="width:100%">
+  </div>
+  <div class="col-3"></div>
 </div>
-<div class="informatieHome">
-  <h3>Home</h3>
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<div class="row">
+  <div class="col-2"></div>
+  <div id="informatieHome" class="col-8">
+    <h3>Home</h3>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  </div>
+  <div class="col-2"></div>
 </div>
 <?php include '../partials/footer.php'; ?>
