@@ -1,22 +1,24 @@
-var slideIndex = 0;
-carousel();
+var slideNummer = 0;
+slider();
 
-function carousel()
+function slider()
 {
   var i;
   var x = document.getElementsByClassName("mySlides");
-  //maakt mySlides images display: none
+  //maakt mySlides images display: none//
   for (i = 0; i < x.length; i++)
   {
     x[i].style.display = "none";
   }
 
   slideIndex++;
-  if (slideIndex > x.length)
+  if (slideNummer > x.length)
   {
-    slideIndex = 1;
+    slideNummer = 1;
   }
-  x[slideIndex-1].style.display = "block";
-  //console.log(slideIndex);
-  setTimeout(carousel, 4000); // Change image every 2 seconds
+  x[slideNummer-1].style.display = "block";
+
+  //hoe snel de slider veranderd//
+  setTimeout(slider, 4000);
+
 }
