@@ -9,12 +9,8 @@
     <div class="col-4"></div>
   </footer>
 </div>
-
     <script src="../assets/js/navbarScript.js"></script>
     <script src="../assets/js/sliderScript.js"></script>
-
-
-
   <body/>
 
   <html/>

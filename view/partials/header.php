@@ -21,7 +21,7 @@
     <title>Game Play Party</title>
 </head>
 <div class="row">
-  <header class="col-12 noTopPadding">
+  <header class="col-12 logoGPP">
     <img src="../images/gpp.svg" alt="">
   </header>
 </div>

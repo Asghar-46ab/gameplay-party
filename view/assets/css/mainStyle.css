@@ -3,7 +3,7 @@
     box-sizing: border-box;
 }
 body{
-  background-color: #c9c9c9 ;
+  background-color: #c9c9c9;
   color: #34495e;
 }
 /* Grid */
@@ -39,7 +39,4 @@ body{
     content: "";
     clear: both;
     display: table;
-}
-.noTopPadding{
-  padding-top: 0;
 }
