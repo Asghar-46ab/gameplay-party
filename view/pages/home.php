@@ -15,8 +15,8 @@
 <div class="row">
   <div class="col-3"></div>
   <div id="informatieHome" class="col-6">
-    <h3>Home</h3>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    <h3 class="col-12">Home</h3>
+    <span class="col-12">Informatie over het bedrijf, Wat wij doen en waar wij voor staan.</span>
   </div>
   <div class="col-3"></div>
 </div>

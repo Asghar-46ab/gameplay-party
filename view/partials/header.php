@@ -5,6 +5,9 @@
 
     <!-- algemeen style -->
     <link rel="stylesheet" type="text/css" href='../assets/css/mainStyle.css'>
+    <link rel="stylesheet" type="text/css" href='../assets/css/headerStyle.css'>
+    <link rel="stylesheet" type="text/css" href='../assets/css/footerStyle.css'>
+    <link rel="stylesheet" type="text/css" href='../assets/css/homePageStyle.css'>
     <!-- browser icon in tab -->
     <link rel="icon" href="../images/path1803.png">
     <!-- Required meta tags -->
@@ -18,7 +21,7 @@
     <title>Game Play Party</title>
 </head>
 <div class="row">
-  <header class="col-12">
+  <header class="col-12 noTopPadding">
     <img src="../images/gpp.svg" alt="">
   </header>
 </div>
