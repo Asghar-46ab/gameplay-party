@@ -5,7 +5,8 @@
 
     <!-- algemeen style -->
     <link rel="stylesheet" type="text/css" href='../assets/css/mainStyle.css'>
-
+    <!-- browser icon in tab -->
+    <link rel="icon" href="../images/path1803.png">
     <!-- Required meta tags -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,7 +16,6 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
     <title>Game Play Party</title>
-
 </head>
 <div class="row">
   <header class="col-12">
@@ -23,19 +23,11 @@
   </header>
 </div>
 <div class="row">
-  <nav class="col-12">
-    <div class="col-3">
-      <a href="#">Home</a>
-    </div>
-    <div class="col-3">
-      <a href="#">Bioscopen</a>
-    </div>
-    <div class="col-3">
-      <a href="#">Contact</a>
-    </div>
-    <div class="col-3">
-      <a href="#">Inlog</a>
-    </div>
+  <nav class="col-12 navBar">
+    <li class="col-3 navButtons" id="navbarButtonHome" onclick="location.href='home.php'">Home</li>
+    <li class="col-3 navButtons" id="navbarButtonBioscopen" onclick="location.href='home.php'">Bioscopen</li>
+    <li class="col-3 navButtons" id="navbarButtonContact" onclick="location.href='home.php'">Contact</li>
+    <li class="col-3 navButtons" id="navbarButtonInlog" onclick="location.href='home.php'">Inlog</li>
   </nav>
 </div>
-<body>
+<body onload="checkCurrentPage()">

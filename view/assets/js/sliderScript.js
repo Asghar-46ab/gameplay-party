@@ -31,7 +31,7 @@ function slider()
   nodeListSlides[slideNummer-1].style.display = "block";
   nodeListSlideButtons[slideNummer-1].style.backgroundColor = "#34495e";
   //hoe snel de slider veranderd//
-  timeOut = setTimeout(slider, 4000);
+  timeOut = setTimeout(slider, 5000);
 }
 
 function changeSlide(huidigeSlide)
