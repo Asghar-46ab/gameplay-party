@@ -1,0 +1,11 @@
+.navButtons{
+  text-align: center;
+  border: 1px solid #34495e;
+  cursor: pointer;
+  list-style-type: none;
+  padding: 14px 16px;
+}
+.navButtons:hover{
+  background-color: #34495e;
+  color: white;
+}
