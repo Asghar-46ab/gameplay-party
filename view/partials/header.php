@@ -28,7 +28,7 @@
 <div class="row">
   <nav class="col-12 navBar">
     <li class="col-3 navButtons" id="navbarButtonHome" onclick="location.href='http://localhost/gameplay-party/Page/home'">Home</li>
-    <li class="col-3 navButtons" id="navbarButtonBioscopen" onclick="location.href='bioscoop.php'">Bioscopen</li>
+    <li class="col-3 navButtons" id="navbarButtonBioscopen" onclick="location.href='http://localhost/gameplay-party/Bioscopen/Show'">Bioscopen</li>
     <li class="col-3 navButtons" id="navbarButtonContact" onclick="location.href='contact.php'">Contact</li>
     <li class="col-3 navButtons" id="navbarButtonInlog" onclick="location.href='inlog.php'">Inlog</li>
   </nav>
