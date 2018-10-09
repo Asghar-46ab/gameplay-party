@@ -5,7 +5,7 @@
     <div class="col-4">
       <li class="col-4 footerBarButtons" onclick="location.href='home.php'">Contact</li>
       <li class="col-4 footerBarButtons" onclick="location.href='home.php'">Bioscopen</li>
-      <li class="col-4 footerBarButtons" onclick="location.href='home.php'">Algemenevoorwaarden</li>
+      <li class="col-4 footerBarButtons" onclick="location.href='home.php'">Voorwaarden</li>
     </div>
     <div class="col-4"></div>
   </footer>
