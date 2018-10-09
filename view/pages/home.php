@@ -21,10 +21,6 @@
   </div>
   <div class="col-3"></div>
 </div>
-<<<<<<< HEAD
-<span id="homepageCheck"></span>
-<?php include 'view/partials/footer.php';?>
-=======
+
 <span id="homePageCheck"></span>
-<?php include '../partials/footer.php';?>
->>>>>>> c07372d69097d06c560136a6983b2866a3461dbb
+<?php include 'view/partials/footer.php';?>
