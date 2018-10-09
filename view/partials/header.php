@@ -4,12 +4,12 @@
 <head>
 
     <!-- algemeen style -->
-    <link rel="stylesheet" type="text/css" href='../assets/css/mainStyle.css'>
-    <link rel="stylesheet" type="text/css" href='../assets/css/headerStyle.css'>
-    <link rel="stylesheet" type="text/css" href='../assets/css/footerStyle.css'>
-    <link rel="stylesheet" type="text/css" href='../assets/css/homePageStyle.css'>
+    <link rel="stylesheet" type="text/css" href= '../view/assets/css/mainStyle.css'>
+    <link rel="stylesheet" type="text/css" href=' ../view/assets/css/headerStyle.css'>
+    <link rel="stylesheet" type="text/css" href=' ../view/assets/css/footerStyle.css'>
+    <link rel="stylesheet" type="text/css" href=' ../view/assets/css/homePageStyle.css'>
     <!-- browser icon in tab -->
-    <link rel="icon" href="../images/path1803.png">
+    <link rel="icon" href="../view/images/path1803.png">
     <!-- Required meta tags -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -22,7 +22,7 @@
 </head>
 <div class="row">
   <header class="col-12 logoGPP">
-    <img src="../images/gpp.svg" alt="">
+    <img src="../view/images/gpp.svg" alt="">
   </header>
 </div>
 <div class="row">
