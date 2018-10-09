@@ -2,7 +2,7 @@
 
 require_once 'model/BioscopenLogic.php';
 
-class Home {
+class Page {
 
     public function __construct() {
 
@@ -10,7 +10,7 @@ class Home {
 
     }
 
-    public function Content(){
+    public function home(){
 
         include "view/pages/home.php";
     }
