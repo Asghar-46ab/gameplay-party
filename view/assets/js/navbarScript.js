@@ -2,11 +2,33 @@
 // elke pagina heeft exist id <span id=""></span> nodig  //
 function checkCurrentPage()
 {
-  var homepageExist = document.getElementById("homepageCheck")
-  if (homepageExist)
+  var navbarButton;
+  var pageCheckIdArray = ["homePageCheck", "bioscoopPageCheck", "contactPageCheck", "inlogPageCheck"];
+
+  for (x = 0; x < pageCheckIdArray.length; x++)
   {
-    navbarButtonHome = document.getElementById("navbarButtonHome");
-    navbarButtonHome.style.backgroundColor = "#34495e";
-    navbarButtonHome.style.color = "white";
+    pageCheckString = pageCheckIdArray[x];
+    if (document.getElementById(pageCheckString) != null)
+    {
+      switch (pageCheckString)
+      {
+
+        case "homePageCheck":
+          navbarButton = document.getElementById("navbarButtonHome");
+          break;
+        case "bioscoopPageCheck":
+          navbarButton = document.getElementById("navbarButtonBioscopen");
+          break;
+        case "contactPageCheck":
+          navbarButton = document.getElementById("navbarButtonContact");
+          break;
+        case "inlogPageCheck":
+          navbarButton = document.getElementById("navbarButtonInlog");
+          break;
+
+      }
+      navbarButton.style.backgroundColor = "#34495e";
+      navbarButton.style.color = "white";
+    }
   }
 }
