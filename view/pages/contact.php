@@ -1,17 +1,16 @@
-
-<?php include 'view/partials/header.php';?>
+<?php include '../partials/header.php';?>
 <div class="row">
-  <div id="sliderHome" class="col-12">
-    <img class="mySlides" src="../view/images/sliderImage1.jpg">
-    <img class="mySlides" src="../view/images/sliderImage2.jpg">
-    <img class="mySlides" src="../view/images/sliderImage3.jpg">
+  <!-- <div id="sliderHome" class="col-12">
+    <img class="mySlides" src="../images/sliderImage1.jpg">
+    <img class="mySlides" src="../images/sliderImage2.jpg">
+    <img class="mySlides" src="../images/sliderImage3.jpg">
 
     <div class="col-12 sliderButtonDiv">
       <span class="sliderButton" onclick="changeSlide(1)"></span>
       <span class="sliderButton" onclick="changeSlide(2)"></span>
       <span class="sliderButton" onclick="changeSlide(3)"></span>
     </div>
-  </div>
+  </div> -->
 </div>
 <div class="row">
   <div class="col-3"></div>
@@ -21,10 +20,5 @@
   </div>
   <div class="col-3"></div>
 </div>
-<<<<<<< HEAD
-<span id="homepageCheck"></span>
-<?php include 'view/partials/footer.php';?>
-=======
-<span id="homePageCheck"></span>
+<span id="contactPageCheck"></span>
 <?php include '../partials/footer.php';?>
->>>>>>> c07372d69097d06c560136a6983b2866a3461dbb
