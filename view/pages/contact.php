@@ -20,5 +20,5 @@
   </div>
   <div class="col-3"></div>
 </div>
-<span id="homePageCheck"></span>
+<span id="contactPageCheck"></span>
 <?php include '../partials/footer.php';?>
