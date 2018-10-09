@@ -1,6 +1,6 @@
 <?php include '../partials/header.php';?>
 <div class="row">
-  <div id="sliderHome" class="col-12">
+  <!-- <div id="sliderHome" class="col-12">
     <img class="mySlides" src="../images/sliderImage1.jpg">
     <img class="mySlides" src="../images/sliderImage2.jpg">
     <img class="mySlides" src="../images/sliderImage3.jpg">
@@ -10,7 +10,7 @@
       <span class="sliderButton" onclick="changeSlide(2)"></span>
       <span class="sliderButton" onclick="changeSlide(3)"></span>
     </div>
-  </div>
+  </div> -->
 </div>
 <div class="row">
   <div class="col-3"></div>
