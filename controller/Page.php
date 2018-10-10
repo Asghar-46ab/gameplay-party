@@ -15,5 +15,8 @@ class Page {
         include "view/pages/home.php";
     }
 
-
+    public function bioscoop()
+    {
+      include "view/pages/bioscoop.php";
+    }
 }
