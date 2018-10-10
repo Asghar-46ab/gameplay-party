@@ -14,7 +14,8 @@
       <img src="../view/images/200x100-placeholder.png" alt="">
       <p>Bioscoopnaam: </p>
       <p>Provincie: </p>
-      <div class="col-12 meerInfo">Meer info</div>
+      <div class="col-12 meerInfoButton">Meer info</div>
+      <div class="col-12 meerInfoButton">Reserveren</div>
     </div>
     <div class="col-3"></div>
   </div>
