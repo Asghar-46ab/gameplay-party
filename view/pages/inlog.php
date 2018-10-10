@@ -14,26 +14,21 @@
     <h3 class="col-12">Login Formulier</h3>
     <span class="col-12"><div class="container">
     <form action="/action_page.php">
-  <div class="imgcontainer">
-    <img src="img_avatar2.png" alt="Avatar" class="avatar">
-  </div>
 
   <div class="container">
-    <label for="uname"><b>Username</b></label>
-    <input type="text" placeholder="Enter Username" name="uname" required>
+    <label for="uname"><b>Gebruikersnaam</b></label>
+    <input type="text" placeholder="Gebruikers Naam" name="uname" required>
 
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
+    <label for="psw"><b>Wachtwoord</b></label>
+    <input type="password" placeholder="Wachtwoord" name="psw" required>
         
-    <button type="submit">Login</button>
+    <button type="submit">Inloggen</button>
     <label>
-      <input type="checkbox" checked="checked" name="remember"> Remember me
+      <input type="checkbox" checked="checked" name="remember"> Account Onthouden
     </label>
   </div>
 
   <div class="container" style="background-color:#f1f1f1">
-    <button type="button" class="cancelbtn">Cancel</button>
-    <span class="psw">Forgot <a href="#">password?</a></span>
   </div>
 </form>
 </div></span>
