@@ -1,0 +1,11 @@
+.bioscoopItem{
+  border: 1px solid black;
+}
+.meerInfo{
+  text-align: center;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.paginering{
+  text-align: center;
+}
