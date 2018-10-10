@@ -26,15 +26,15 @@ require 'DataHandler.php';
        foreach ($array as $key => $value)
        {
            $html .= '<div class="col-3">
-           <div class="col-3"></div>
-           <div class="col-6 bioscoopItem">
-             <img src="../view/images/200x100-placeholder.png" alt="">
+
+           <div class="col-12 bioscoopItem">
+             <img class="bioscoopItemImage" src="../view/images/'.$value["city"].'.jpg" alt="">
              <p>Bioscoopnaam: '.$value["cinema_name"].'</p>
-             <p>Provincie: '.$value["city"].'</p>
+             <p>Provincie: '.$value["state"].'</p>
              <div class="col-12 meerInfoButton">Meer info</div>
              <div class="col-12 meerInfoButton">Reserveren</div>
            </div>
-           <div class="col-3"></div>
+
          </div>';
 
       }
