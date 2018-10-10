@@ -11,19 +11,19 @@
 
   <div class="col-3"></div>
   <div id="informatieHome" class="col-6">
-    <h3 class="col-12">Contact Form</h3>
+    <h3 class="col-12">Contact Formulier</h3>
     <span class="col-12"><div class="container">
   <form action="/action_page.php">
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    <label for="fname">Voornaam</label>
+    <input type="text" id="fname" name="firstname" placeholder="Voornaam">
 
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-    
-    <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    <label for="lname">Achternaam</label>
+    <input type="text" id="lname" name="lastname" placeholder="Achternaam">
 
-    <input type="submit" value="Submit">
+    <label for="subject">Bericht</label>
+    <textarea id="subject" name="subject" placeholder="Jouw Bericht" style="height:200px"></textarea>
+
+    <input type="submit" value="Verzenden">
   </form>
 </div></span>
   </div>
