@@ -23,12 +23,12 @@ class Page {
     
     public function contact(){
 
-        include "view/pages/home.php";
+        include "view/pages/contact.php";
     }
 
     public function inlog(){
 
-        include "view/pages/home.php";
+        include "view/pages/inlog.php";
     }
 
 

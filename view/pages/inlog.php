@@ -1,9 +1,9 @@
-<?php include '../partials/header.php';?>
+<?php include 'view/partials/header.php';?>
 <div class="row">
   <div id="sliderHome" class="col-12">
-    <img class="mySlides" src="../images/sliderImage1.jpg">
-    <img class="mySlides" src="../images/sliderImage2.jpg">
-    <img class="mySlides" src="../images/sliderImage3.jpg">
+    <img class="mySlides" src="/images/sliderImage1.jpg">
+    <img class="mySlides" src="/images/sliderImage2.jpg">
+    <img class="mySlides" src="/images/sliderImage3.jpg">
 
     <div class="col-12 sliderButtonDiv">
       <span class="sliderButton" onclick="changeSlide(1)"></span>
@@ -21,4 +21,4 @@
   <div class="col-3"></div>
 </div>
 <span id="inlogPageCheck"></span>
-<?php include '../partials/footer.php';?>
+<?php include 'view/partials/footer.php';?>
