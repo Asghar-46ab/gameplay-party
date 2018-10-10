@@ -10,6 +10,11 @@
     <link rel="stylesheet" type="text/css" href=' /view/assets/css/footerStyle.css'>
     <link rel="stylesheet" type="text/css" href=' /view/assets/css/homePageStyle.css'>
 =======
+    <link rel="stylesheet" type="text/css" href= '../view/assets/css/mainStyle.css'>
+    <link rel="stylesheet" type="text/css" href=' ../view/assets/css/headerStyle.css'>
+    <link rel="stylesheet" type="text/css" href=' ../view/assets/css/footerStyle.css'>
+    <link rel="stylesheet" type="text/css" href=' ../view/assets/css/homePageStyle.css'>
+    <link rel="stylesheet" type="text/css" href=' ../view/assets/css/bioscoopPageStyle.css'>
 >>>>>>> Frank
     <!-- browser icon in tab -->
     <link rel="icon" href="../view/images/path1803.png">
