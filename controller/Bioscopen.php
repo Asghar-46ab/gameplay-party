@@ -9,9 +9,13 @@
 
         }
 
+        public function Show(){
 
+            $content = $this->BioscopenLogic->bbb();
 
+            include "view/pages/bioscoop.php";
 
+        }
 
 
     }

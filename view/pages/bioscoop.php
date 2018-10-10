@@ -18,6 +18,7 @@
     </div>
     <div class="col-3"></div>
   </div>
+    <?php var_dump($content)?>
   <div class="col-3">
 
   </div>
