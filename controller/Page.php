@@ -15,5 +15,21 @@ class Page {
         include "view/pages/home.php";
     }
 
+    public function bioscoop(){
+
+        $content = "bioscopen content";
+        include "view/pages/bioscoop.php";
+    }
+    
+    public function contact(){
+
+        include "view/pages/home.php";
+    }
+
+    public function inlog(){
+
+        include "view/pages/home.php";
+    }
+
 
 }

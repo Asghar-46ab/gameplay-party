@@ -10,11 +10,7 @@
         }
 
 
-        public function Show(){
 
-            $content = "bioscopen content";
-            include "view/pages/bioscoop.php";
-        }
 
 
 
