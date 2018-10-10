@@ -1,11 +1,11 @@
-<hr>
+
 <div class="row">
   <footer class="col-12">
     <div class="col-4"></div>
     <div class="col-4">
-      <li class="col-4 footerBarButtons" onclick="location.href='home.php'">Contact</li>
-      <li class="col-4 footerBarButtons" onclick="location.href='home.php'">Bioscopen</li>
-      <li class="col-4 footerBarButtons" onclick="location.href='home.php'">Voorwaarden</li>
+      <li class="col-4 footerBarButtons" onclick="location.href='contact'">Contact</li>
+      <li class="col-4 footerBarButtons" onclick="location.href='bioscoop'">Bioscopen</li>
+      <li class="col-4 footerBarButtons" onclick="location.href='https://boutadvocaten.nl/blog/algemene-voorwaarden-op-uw-website-let-op/'" target="_blank">Voorwaarden</li>
     </div>
     <div class="col-4"></div>
   </footer>

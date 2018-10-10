@@ -13,6 +13,22 @@ require 'DataHandler.php';
      }
 
 
+ public function data(){
+     $sql = "select cinema_name from cinemas";
+
+     $stmt= $this->DataHandler->Read($sql);
+
+     return $stmt;
+
+ }
+
+ public function bbb(){
+
+
+
+ }
+
+
 
   }
 ?>
