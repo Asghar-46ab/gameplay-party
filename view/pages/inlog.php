@@ -21,9 +21,6 @@
     <input type="password" placeholder="Wachtwoord" name="psw" required>
         
     <button type="submit">Inloggen</button>
-    <label>
-      <input type="checkbox" checked="checked" name="remember"> Account Onthouden
-    </label>
   </div>
 
   <div class="container" style="background-color:#f1f1f1">
