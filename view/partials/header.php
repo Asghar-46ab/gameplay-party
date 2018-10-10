@@ -4,10 +4,13 @@
 <head>
 
     <!-- algemeen style -->
+<<<<<<< HEAD
     <link rel="stylesheet" type="text/css" href= '/view/assets/css/mainStyle.css'>
     <link rel="stylesheet" type="text/css" href=' /view/assets/css/headerStyle.css'>
     <link rel="stylesheet" type="text/css" href=' /view/assets/css/footerStyle.css'>
     <link rel="stylesheet" type="text/css" href=' /view/assets/css/homePageStyle.css'>
+=======
+>>>>>>> Frank
     <!-- browser icon in tab -->
     <link rel="icon" href="../view/images/path1803.png">
     <!-- Required meta tags -->
