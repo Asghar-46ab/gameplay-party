@@ -1,4 +1,4 @@
-<hr>
+
 <div class="row">
   <footer class="col-12">
     <div class="col-4"></div>
