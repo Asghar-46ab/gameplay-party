@@ -1,4 +1,6 @@
-<?php include 'view/partials/header.php';?>
+<?php include 'view/partials/header.php';
+// require_once "controller/bioscopen.php";
+?>
 <div class="row">
   <div class="col-3"></div>
   <div id="informatieHome" class="col-6">
@@ -8,18 +10,9 @@
   <div class="col-3"></div>
 </div>
 <div class="row">
-  <div class="col-3">
-    <div class="col-3"></div>
-    <div class="col-6 bioscoopItem">
-      <img src="../view/images/200x100-placeholder.png" alt="">
-      <p>Bioscoopnaam: </p>
-      <p>Provincie: </p>
-      <div class="col-12 meerInfoButton">Meer info</div>
-      <div class="col-12 meerInfoButton">Reserveren</div>
-    </div>
-    <div class="col-3"></div>
-  </div>
-    <?php var_dump($content)?>
+  <?php echo $content;?>
+
+
   <div class="col-3">
 
   </div>

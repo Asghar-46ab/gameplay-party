@@ -5,9 +5,13 @@
 
     <!-- algemeen style -->
     <link rel="stylesheet" type="text/css" href= '/view/assets/css/mainStyle.css'>
+    <!-- header en footer style -->
     <link rel="stylesheet" type="text/css" href=' /view/assets/css/headerStyle.css'>
     <link rel="stylesheet" type="text/css" href=' /view/assets/css/footerStyle.css'>
+    <!-- pagina style -->
     <link rel="stylesheet" type="text/css" href=' /view/assets/css/homePageStyle.css'>
+    <link rel="stylesheet" type="text/css" href=' /view/assets/css/bioscoopPageStyle.css'>
+
     <!-- browser icon in tab -->
     <link rel="icon" href="../view/images/path1803.png">
     <!-- Required meta tags -->
@@ -28,7 +32,7 @@
 <div class="row">
   <nav class="col-12 navBar">
     <li class="col-3 navButtons" id="navbarButtonHome" onclick="location.href='/Page/home'">Home</li>
-    <li class="col-3 navButtons" id="navbarButtonBioscopen" onclick="location.href='http://localhost/Bioscopen/Show'">Bioscopen</li>
+    <li class="col-3 navButtons" id="navbarButtonBioscopen" onclick="location.href='/bioscopen/ShowBioscopen'">Bioscopen</li>
     <li class="col-3 navButtons" id="navbarButtonContact" onclick="location.href='/Page/contact'">Contact</li>
     <li class="col-3 navButtons" id="navbarButtonInlog" onclick="location.href='/Page/inlog'">Inlog</li>
   </nav>

@@ -20,7 +20,8 @@ function CreateData($sql){
     }
   }
 
-  function Read($sql){
+  public function Read($sql)
+  {
     $stmt = $this->conn->prepare($sql);
     $stmt->execute();
     $result = $stmt->fetchAll(PDO::FETCH_ASSOC);

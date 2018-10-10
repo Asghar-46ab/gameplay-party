@@ -9,9 +9,10 @@
 
         }
 
-        public function Show(){
+        public function ShowBioscopen()
+        {
 
-            $content = $this->BioscopenLogic->bbb();
+            $content = $this->BioscopenLogic->generateBioscoopOverzicht();
 
             include "view/pages/bioscoop.php";
 
