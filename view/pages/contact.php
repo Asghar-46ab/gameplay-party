@@ -21,4 +21,4 @@
   <div class="col-3"></div>
 </div>
 <span id="contactPageCheck"></span>
-<?php include '../partials/footer.php';?>
+<?php include 'view/partials/footer.php';?>

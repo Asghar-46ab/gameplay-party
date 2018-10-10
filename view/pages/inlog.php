@@ -1,4 +1,4 @@
-<?php include '../partials/header.php';?>
+<?php include '/partials/header.php';?>
 <div class="row">
   <div id="sliderHome" class="col-12">
     <img class="mySlides" src="../images/sliderImage1.jpg">
@@ -21,4 +21,4 @@
   <div class="col-3"></div>
 </div>
 <span id="inlogPageCheck"></span>
-<?php include '../partials/footer.php';?>
+<?php include '/partials/footer.php';?>
