@@ -4,10 +4,10 @@
 <head>
 
     <!-- algemeen style -->
-    <link rel="stylesheet" type="text/css" href= '../view/assets/css/mainStyle.css'>
-    <link rel="stylesheet" type="text/css" href=' ../view/assets/css/headerStyle.css'>
-    <link rel="stylesheet" type="text/css" href=' ../view/assets/css/footerStyle.css'>
-    <link rel="stylesheet" type="text/css" href=' ../view/assets/css/homePageStyle.css'>
+    <link rel="stylesheet" type="text/css" href= '/view/assets/css/mainStyle.css'>
+    <link rel="stylesheet" type="text/css" href=' /view/assets/css/headerStyle.css'>
+    <link rel="stylesheet" type="text/css" href=' /view/assets/css/footerStyle.css'>
+    <link rel="stylesheet" type="text/css" href=' /view/assets/css/homePageStyle.css'>
     <!-- browser icon in tab -->
     <link rel="icon" href="../view/images/path1803.png">
     <!-- Required meta tags -->
@@ -27,10 +27,10 @@
 </div>
 <div class="row">
   <nav class="col-12 navBar">
-    <li class="col-3 navButtons" id="navbarButtonHome" onclick="location.href='http://localhost/gameplay-party/Page/home'">Home</li>
-    <li class="col-3 navButtons" id="navbarButtonBioscopen" onclick="location.href='http://localhost/gameplay-party/Bioscopen/Show'">Bioscopen</li>
-    <li class="col-3 navButtons" id="navbarButtonContact" onclick="location.href='contact.php'">Contact</li>
-    <li class="col-3 navButtons" id="navbarButtonInlog" onclick="location.href='inlog.php'">Inlog</li>
+    <li class="col-3 navButtons" id="navbarButtonHome" onclick="location.href='/Page/home'">Home</li>
+    <li class="col-3 navButtons" id="navbarButtonBioscopen" onclick="location.href='/Bioscopen/Show'">Bioscopen</li>
+    <li class="col-3 navButtons" id="navbarButtonContact" onclick="location.href='/contact.php'">Contact</li>
+    <li class="col-3 navButtons" id="navbarButtonInlog" onclick="location.href='/inlog.php'">Inlog</li>
   </nav>
 </div>
 <body onload="checkCurrentPage()">
