@@ -2,9 +2,9 @@
 <?php include 'view/partials/header.php';?>
 <div class="row">
   <div id="sliderHome" class="col-12">
-    <img class="mySlides" src="../view/images/sliderImage1.jpg">
-    <img class="mySlides" src="../view/images/sliderImage2.jpg">
-    <img class="mySlides" src="../view/images/sliderImage3.jpg">
+    <img class="mySlides" src="view/images/sliderImage1.jpg">
+    <img class="mySlides" src="view/images/sliderImage2.jpg">
+    <img class="mySlides" src="view/images/sliderImage3.jpg">
 
     <div class="col-12 sliderButtonDiv">
       <span class="sliderButton" onclick="changeSlide(1)"></span>

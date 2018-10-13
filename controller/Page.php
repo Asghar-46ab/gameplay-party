@@ -6,21 +6,19 @@ class Page {
 
     public function __construct() {
 
-        $this->BioscopenLogic = new BioscopenLogic();
 
     }
 
     public function home(){
-
         include "view/pages/home.php";
     }
 
     public function bioscoop(){
-
+        $this->BioscopenLogic = new BioscopenLogic();
         $content = "bioscopen content";
-        include "view/pages/bioscoop.php";
+        // include "gameplay-party/view/pages/bioscoop.php";
     }
-    
+
     public function contact(){
 
         include "view/pages/contact.php";
