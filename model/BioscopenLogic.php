@@ -31,7 +31,7 @@ require 'DataHandler.php';
              <img class="bioscoopItemImage" src="../view/images/'.$value["city"].'.jpg" alt="">
              <p>'.$value["cinema_name"].'</p>
              <p>'.$value["state"].'</p>
-             <div class="col-12 meerInfoButton">Meer info</div>
+             <div class="col-12 meerInfoButton" onclick=window.open("https://kinepolis.nl/bioscopen/'.$value["info_url"].'/info")>Meer info</div>
              <div class="col-12 meerInfoButton">Reserveren</div>
            </div>
 
