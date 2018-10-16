@@ -1,8 +1,8 @@
 .navButtons{
   text-align: center;
-  border: 1px solid #34495e;
-  background-color: #C4E538;
-  color: #009432;
+  border: 1px solid white;
+  background-color: #34495e;
+  color: white;
   cursor: pointer;
   list-style-type: none;
   padding: 14px 16px;
@@ -10,8 +10,9 @@
   font-size: 1.5em;
 }
 .navButtons:hover{
-  background-color: #34495e;
-  color: white;
+  background-color: #C4E538;
+  color: #009432;
+  border: 1px solid #34495e;
 }
 .logoGPP{
   padding-left: 0;

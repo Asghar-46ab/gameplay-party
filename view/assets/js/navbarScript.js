@@ -27,8 +27,9 @@ function checkCurrentPage()
           break;
 
       }
-      navbarButton.style.backgroundColor = "#34495e";
-      navbarButton.style.color = "white";
+      navbarButton.style.backgroundColor = "#C4E538";
+      navbarButton.style.color = "#009432";
+      navbarButton.style.border = "1px solid #34495e";
     }
   }
 }

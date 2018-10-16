@@ -28,12 +28,23 @@ require 'DataHandler.php';
 
            $html .= '<div class="col-3">
 
-           <div class="col-12 bioscoopItem">
-             <img class="bioscoopItemImage" src="../view/images/'.$value["city"].'.jpg" alt="">
-             <p>'.$value["cinema_name"].'</p>
-             <p>'.$value["state"].'</p>
-             <div class="col-12 meerInfoButton" onclick=window.open("https://kinepolis.nl/bioscopen/'.$value["info_url"].'/info")>Meer info</div>
-             <div class="col-12 meerInfoButton">Reserveren</div>
+           <div class="row bioscoopItem">
+             <img class="col-12 bioscoopItemImage" src="../view/images/'.$value["city"].'.jpg" alt="">
+             <div class="col-1"></div>
+             <span class="col-11 bioscoopNaam">'.$value["cinema_name"].'</span>
+             <div class="col-1"></div>
+             <span class="col-11 bioscoopProvincie">'.$value["state"].'</span>
+             <div class="col-12">
+             <div class="col-4"></div>
+             <div class="col-4 meerInfoButton" onclick=window.open("https://kinepolis.nl/bioscopen/'.$value["info_url"].'/info")>Meer info</div>
+             <div class="col-4"></div>
+             </div>
+
+             <div class="col-12">
+             <div class="col-4"></div>
+             <div class="col-4 meerInfoButton">Reserveren</div>
+             <div class="col-4"></div>
+             </div>
            </div>
 
          </div>';
