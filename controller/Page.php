@@ -5,18 +5,13 @@ require_once 'model/BioscopenLogic.php';
 class Page {
 
     public function __construct() {
-
+        $this->BioscopenLogic = new BioscopenLogic();
 
     }
 
     public function home(){
+        $content = $this->BioscopenLogic->Oeverons();
         include "view/pages/home.php";
-    }
-
-    public function bioscoop(){
-        $this->BioscopenLogic = new BioscopenLogic();
-        $content = "bioscopen content";
-        // include "gameplay-party/view/pages/bioscoop.php";
     }
 
     public function contact(){
