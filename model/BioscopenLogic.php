@@ -5,7 +5,7 @@ require 'DataHandler.php';
  class BioscopenLogic {
    private $Datahandler;
      function __construct(){
-      $this->DataHandler = new Datahandler("mysql","localhost", "gameplayparty", "root", "");
+      $this->DataHandler = new Datahandler("mysql","localhost", "gameplay-party", "root", "");
      }
 
      function __destruct(){
