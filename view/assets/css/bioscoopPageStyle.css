@@ -1,11 +1,18 @@
 .bioscoopItem{
 
-  border: 1px solid black;
+  border: 2px solid #888888;
+  box-shadow: 5px 10px #888888;
 }
 .meerInfoButton{
   text-align: center;
-  border: 1px solid black;
+  border: 1px solid white;
+  background-color: #34495e;
+  color: white;
   cursor: pointer;
+  list-style-type: none;
+  padding: 14px 16px;
+  font-weight: bold;
+  font-size: 1em;
 }
 .paginering{
   text-align: center;
@@ -15,6 +22,14 @@
   object-fit: cover;
   width: 100%;
   height: 200px;
+}
+.meerInfoButton:hover{
+  background-color: #C4E538;
+  color: #009432;
+  border: 1px solid #34495e;
+}
+.bioscoopNaam,.bioscoopProvincie{
+  text-align: left;
 }
 /* @media only screen and (max-width: 1300px) {
   font-size: 0.4em;
