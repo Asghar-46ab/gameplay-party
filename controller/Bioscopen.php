@@ -17,7 +17,12 @@
             include "view/pages/bioscoop.php";
 
         }
+		
+		public function showReserve($cinema_id) {
+			$content = $this->BioscopenLogic->generateReserveOverzicht($cinema_id);
 
+			include "view/pages/reserveren.php";
+		}
 
     }
-    ?>
+ ?>
