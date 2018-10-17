@@ -17,7 +17,15 @@
             include "view/pages/bioscoop.php";
 
         }
-
+		
+		public function showReserve($cinema_id) {
+			if(isset($_POST['createreserveren'])) {
+				//afhandeling formulier
+			} else {
+				$content = $this->BioscopenLogic->generateReserveOverzicht($cinema_id);
+				include "view/pages/reserverenFormulier.php";
+			}
+		}
 
 
         public function CreateBioscoop() {
@@ -50,4 +58,4 @@
         }
 
     }
-    ?>
+ ?>
