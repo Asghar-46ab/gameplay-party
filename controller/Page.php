@@ -12,7 +12,6 @@ class Page {
     public function home(){
         $content = $this->BioscopenLogic->Oeverons();
         include "view/pages/home.php";
-        include "view/pages/overonsForm.php";
 
     }
 
