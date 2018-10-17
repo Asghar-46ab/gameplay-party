@@ -22,6 +22,24 @@ require 'DataHandler.php';
 
      }
 
+	 function checkUser($username, $password) {
+		$sql = "SELECT * FROM users";
+		$stmt = $this->DataHandler->Read($sql);
+		
+		$correct = false;
+		foreach ($stmt as $key => $value) {
+			if($value['user_name'] == $username && $value['password'] == $password) {
+				$correct = true;
+				break;
+			}
+		}
+		
+		if($correct) {
+			header('Location: http://localhost/Inlog/Readactie');
+		} else {
+			echo "Inlog gegevens zijn onjuist";
+		}
+	}
 
 
      function generateBioscoopOverzicht() {

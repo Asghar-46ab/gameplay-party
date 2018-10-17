@@ -30,8 +30,20 @@ class Page {
     }
 
     public function inlog(){
-
-        include "view/pages/inlog.php";
+		if(isset($_POST['login-submit'])) {
+			$username = $_POST['username'];
+			$password = $_POST['psw'];
+			
+			$check = $this->BioscopenLogic->checkUser($username, $password);
+			
+			if($check) {
+				
+			} else {
+				//inlog gegevens kloppen niet
+			}
+		} else {
+			include "view/pages/inlog.php";
+		}
     }
 
 
