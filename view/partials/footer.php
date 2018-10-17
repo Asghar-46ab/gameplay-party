@@ -5,7 +5,7 @@
     <div class="col-4">
       <li class="col-4 footerBarButtons" onclick="location.href='contact'">Contact</li>
       <li class="col-4 footerBarButtons" onclick="location.href='bioscoop'">Bioscopen</li>
-      <li class="col-4 footerBarButtons" onclick="location.href='https://boutadvocaten.nl/blog/algemene-voorwaarden-op-uw-website-let-op/'" target="_blank">Voorwaarden</li>
+      <li class="col-4 footerBarButtons" onclick='window.open("https://boutadvocaten.nl/blog/algemene-voorwaarden-op-uw-website-let-op/")'>Voorwaarden</li>
     </div>
     <div class="col-4"></div>
   </footer>

@@ -17,7 +17,8 @@
   <div class="col-3"></div>
   <div id="informatieHome" class="col-6">
     <h3 class="col-12">Home</h3>
-    <span class="col-12">Informatie over het bedrijf, Wat wij doen en waar wij voor staan.</span>
+    <span class="col-12"><?php echo $content; ?></span>
+
   </div>
   <div class="col-3"></div>
 </div>
