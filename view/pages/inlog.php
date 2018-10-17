@@ -21,7 +21,7 @@
         <input type="text" placeholder="Gebruikers Naam" name="username" required>
 
         <label for="psw"><b>Wachtwoord</b></label>
-        <input type="text" placeholder="Wachtwoord" name="psw" required>
+        <input type="password" placeholder="Wachtwoord" name="psw" required>
 
         <button type="submit" name="login-submit" >Inloggen</button>
     </div>
