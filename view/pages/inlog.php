@@ -18,11 +18,11 @@
 
     <div class="container">
         <label for="username"><b>Gebruikersnaam</b></label>
-        <input type="text" placeholder="Gebruikers Naam" name="username">
+        <input type="text" placeholder="Gebruikers Naam" name="username" required>
 
         <label for="psw"><b>Wachtwoord</b></label>
-        <input type="text" placeholder="Wachtwoord" name="psw">
-        
+        <input type="text" placeholder="Wachtwoord" name="psw" required>
+
         <button type="submit" name="login-submit" >Inloggen</button>
     </div>
 
