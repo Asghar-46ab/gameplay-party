@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="663dc344-84ef-436b-96a6-208f6d84656f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/Bioscopen.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/Bioscopen.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/Page.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/Page.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/model/BioscopenLogic.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/BioscopenLogic.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/assets/css/headerStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/view/assets/css/headerStyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/assets/css/homePageStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/view/assets/css/homePageStyle.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,13 +34,13 @@
           <entry key="css" value="9" />
           <entry key="gitignore" value="1" />
           <entry key="htaccess" value="3" />
-          <entry key="php" value="65" />
+          <entry key="php" value="72" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="9" />
-          <entry key="PHP" value="65" />
+          <entry key="PHP" value="72" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="htaccess" value="3" />
         </counts>
@@ -45,13 +48,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="92" />
-          <entry key="php" value="2218" />
+          <entry key="php" value="2389" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="92" />
-          <entry key="PHP" value="2218" />
+          <entry key="PHP" value="2389" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.new.class">
@@ -98,45 +101,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/view/pages/readacti.php">
+        <entry file="file://$PROJECT_DIR$/view/pages/overonsForm.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="14" column="6" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="43" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/view/pages/readactieCreate.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="59" column="48" selection-start-line="59" selection-start-column="48" selection-end-line="59" selection-end-column="53" />
-              <folding>
-                <element signature="e#433#459#0#HTML" expanded="true" />
-                <element signature="e#860#917#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controller/Bioscopen.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="133">
+              <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/controller/Page.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controller/test.mail.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="3" column="3" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model/BioscopenLogic.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="73" lean-forward="true" selection-start-line="7" selection-start-column="73" selection-end-line="7" selection-end-column="73" />
+            <state relative-caret-position="1357">
+              <caret line="75" selection-start-line="75" selection-end-line="75" />
             </state>
           </provider>
         </entry>
@@ -146,15 +141,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="286">
               <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/view/assets/css/headerStyle.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -186,21 +172,23 @@
         <option value="$PROJECT_DIR$/model/Router.php" />
         <option value="$PROJECT_DIR$/view/pages/contact.php" />
         <option value="$PROJECT_DIR$/view/partials/footer.php" />
-        <option value="$PROJECT_DIR$/view/pages/bioscoop.php" />
         <option value="$PROJECT_DIR$/view/pages/cinema.php" />
         <option value="$PROJECT_DIR$/view/pages/inlog.php" />
         <option value="$PROJECT_DIR$/controller/Inlog.php" />
         <option value="$PROJECT_DIR$/view/pages/home.php" />
-        <option value="$PROJECT_DIR$/controller/Page.php" />
         <option value="$PROJECT_DIR$/view/assets/css/readactie.css" />
         <option value="$PROJECT_DIR$/view/partials/header.php" />
         <option value="$PROJECT_DIR$/view/assets/css/mainStyle.css" />
-        <option value="$PROJECT_DIR$/controller/Bioscopen.php" />
         <option value="$PROJECT_DIR$/view/pages/readacti.php" />
         <option value="$PROJECT_DIR$/view/pages/readactieCreate.php" />
         <option value="$PROJECT_DIR$/model/DataHandler.php" />
         <option value="$PROJECT_DIR$/view/assets/css/headerStyle.css" />
+        <option value="$PROJECT_DIR$/view/pages/bioscoop.php" />
+        <option value="$PROJECT_DIR$/view/assets/css/homePageStyle.css" />
+        <option value="$PROJECT_DIR$/controller/Bioscopen.php" />
         <option value="$PROJECT_DIR$/model/BioscopenLogic.php" />
+        <option value="$PROJECT_DIR$/view/pages/overonsForm.php" />
+        <option value="$PROJECT_DIR$/controller/Page.php" />
       </list>
     </option>
   </component>
@@ -210,9 +198,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="59" />
-    <option name="y" value="88" />
+    <option name="y" value="177" />
     <option name="width" value="1296" />
     <option name="height" value="709" />
   </component>
@@ -238,37 +226,13 @@
             <path>
               <item name="gameplay-party" type="b2602c69:ProjectViewProjectNode" />
               <item name="gameplay-party" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gameplay-party" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gameplay-party" type="462c0819:PsiDirectoryNode" />
               <item name="view" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gameplay-party" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gameplay-party" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gameplay-party" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gameplay-party" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gameplay-party" type="b2602c69:ProjectViewProjectNode" />
               <item name="gameplay-party" type="462c0819:PsiDirectoryNode" />
               <item name="view" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gameplay-party" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gameplay-party" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="partials" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -323,10 +287,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38076000" />
+    <option name="totallyTimeSpent" value="40135000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="59" y="88" width="1296" height="709" extended-state="0" />
+    <frame x="59" y="177" width="1296" height="709" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49918962" visible="true" weight="0.21610846" />
@@ -390,24 +354,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/pages/bioscoop.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/view/pages/contact.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/pages/cinema.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
@@ -425,20 +375,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/Page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/pages/inlog.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/view/partials/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -453,13 +389,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/assets/css/readactie.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="611">
-          <caret line="116" column="1" selection-start-line="116" selection-start-column="1" selection-end-line="116" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/view/assets/css/readactie.css" />
     <entry file="file://$PROJECT_DIR$/view/pages/home.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -481,39 +411,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/pages/readacti.php">
+    <entry file="file://$PROJECT_DIR$/view/assets/css/bioscoopPageStyle.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="14" column="6" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="43" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="342">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/pages/readactieCreate.php">
+    <entry file="file://$PROJECT_DIR$/view/pages/bioscoop.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="59" column="48" selection-start-line="59" selection-start-column="48" selection-end-line="59" selection-end-column="53" />
-          <folding>
-            <element signature="e#433#459#0#HTML" expanded="true" />
-            <element signature="e#860#917#0#HTML" expanded="true" />
-          </folding>
+        <state relative-caret-position="285">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="23" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/Bioscopen.php">
+    <entry file="file://$PROJECT_DIR$/view/assets/css/homePageStyle.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/DataHandler.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="513">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
@@ -524,10 +439,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/BioscopenLogic.php">
+    <entry file="file://$PROJECT_DIR$/view/pages/cinema.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/pages/inlog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/Bioscopen.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="36" column="79" lean-forward="true" selection-start-line="36" selection-start-column="79" selection-end-line="36" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/pages/readactieCreate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/pages/readacti.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="12" selection-end-column="45" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/DataHandler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/pages/overonsForm.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
-          <caret line="7" column="73" lean-forward="true" selection-start-line="7" selection-start-column="73" selection-end-line="7" selection-end-column="73" />
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/BioscopenLogic.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1357">
+          <caret line="75" selection-start-line="75" selection-end-line="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/test.mail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="3" column="3" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/Page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
         </state>
       </provider>
     </entry>

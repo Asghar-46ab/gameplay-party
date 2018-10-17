@@ -40,8 +40,7 @@
 
                 $content = $this->BioscopenLogic->InsertBioscopen($cinema_name, $info_url, $street, $house_number, $postal_code, $city, $state, $car_accessibility, $ov_accessibility, $bike_accessibility,$wheelchair_accessibility,$cinema_conditions );
 
-
-//    sdf            header("Location: http://localhost/Inlog/Readactie");
+                header("Location: http://localhost/Inlog/Readactie");
 
             }else{
 

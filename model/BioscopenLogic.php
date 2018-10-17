@@ -3,7 +3,10 @@
 require 'DataHandler.php';
 
  class BioscopenLogic {
+
+
    private $Datahandler;
+
      function __construct(){
       $this->DataHandler = new Datahandler("mysql","localhost", "gameplay-party", "root", "");
      }
@@ -70,6 +73,7 @@ require 'DataHandler.php';
              $overons = $value["page_content"];
              $html = "<strong> Over Ons </strong>";
               $html .= "<p>".$overons."</p> ";
+
          }
          return $html;
      }
