@@ -16,7 +16,7 @@ class Inlog {
             $username = $_POST['username'];
             $pas = $_POST['psw'];
 
-            var_dump($username, $pas);
+//            var_dump($username, $pas);
         }
         else{
             include "view/pages/inlog.php";

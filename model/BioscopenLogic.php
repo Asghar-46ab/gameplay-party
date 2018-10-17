@@ -106,12 +106,9 @@ require 'DataHandler.php';
      public function InsertBioscopen($cinema_name, $info_url, $street, $house_number, $postal_code, $city, $state, $car_accessibility, $ov_accessibility, $bike_accessibility,$wheelchair_accessibility,$cinema_conditions ){
 
 
-
          try {
 
-
-
-             $sql = "INSERT INTO `gameplayparty`.`cinemas` (`cinema_name`, `info_url`, `street`, `house_number`, `postal_code`, `city`, `state`, `car_accessibility`,`ov_accessibility`, `bike_accessibility`,`wheelchair_accessibility`,`cinema_conditions`) VALUES ('$cinema_name', '$info_url', '$street', '$house_number', '$postal_code', '$city', '$state', '$car_accessibility', '$ov_accessibility', '$bike_accessibility', '$wheelchair_accessibility', '$cinema_conditions');";
+             $sql = "INSERT INTO `gameplay-party`.`cinemas` (`cinema_name`, `info_url`, `street`, `house_number`, `postal_code`, `city`, `state`, `car_accessibility`,`ov_accessibility`, `bike_accessibility`,`wheelchair_accessibility`,`cinema_conditions`) VALUES ('$cinema_name', '$info_url', '$street', '$house_number', '$postal_code', '$city', '$state', '$car_accessibility', '$ov_accessibility', '$bike_accessibility', '$wheelchair_accessibility', '$cinema_conditions');";
 
 
             $stmt = $this->DataHandler->Create($sql);
