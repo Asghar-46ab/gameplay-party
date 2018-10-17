@@ -36,13 +36,13 @@ require 'DataHandler.php';
              <span class="col-11 bioscoopProvincie">'.$value["state"].'</span>
              <div class="col-12">
              <div class="col-4"></div>
-             <div class="col-4 meerInfoButton" onclick=window.open("https://kinepolis.nl/bioscopen/'.$value["info_url"].'/info")>Meer info</div>
+             <div class="col-12 meerInfoButton" onclick=window.open("https://kinepolis.nl/bioscopen/'.$value["info_url"].'/info")>Meer info</div>
              <div class="col-4"></div>
              </div>
 
              <div class="col-12">
              <div class="col-4"></div>
-             <div class="col-4 meerInfoButton">Reserveren</div>
+             <div class="col-12 meerInfoButton" onclick=location.href="/bioscopen/showReserve/'.$value["cinema_id"].'">Reserveren</div>
              <div class="col-4"></div>
              </div>
            </div>
@@ -61,18 +61,19 @@ require 'DataHandler.php';
 	 
 	 function generateReserveOverzicht($bioscoop_id) 
 	 {
-		$html = '';
+		$html = '';//naam achternaam datum reservatie
 		$array = $this->getBioscoop($bioscoop_id);
 		foreach($array as $key => $value) {
-			$html .= '<div class="col-3">
-					<form action="/handle_reserve_overzicht.php">
-						Bioscoop: <input type="text" name="city" value="Kinepolis '.$value['city'] . '" readonly>
-						
-					</form>
-					<p>'.$value["cinema_name"].'</p>
-					<p>'.$value["state"].'</p>
-			</div>
-			';
+			$html .= "<label for='fname'>Bioscoop Naam</label>
+            <input type='text' value='Kinepolis ".$value['city'] . "' readonly>
+			<label for='fname'>Voornaam</label>
+            <input type='text' name='voornaam'>
+			<label for='fname'>Achternaam</label>
+            <input type='text' name='achternaam'>
+			<label for='fname'>Reserverings datum</label><br>
+			<input type='date' name='datum'>
+            <input type='submit'  name='createreserveren' value='Reserveer'>
+			";
 		}
 		return $html;
 	}

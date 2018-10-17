@@ -19,9 +19,12 @@
         }
 		
 		public function showReserve($cinema_id) {
-			$content = $this->BioscopenLogic->generateReserveOverzicht($cinema_id);
-
-			include "view/pages/reserveren.php";
+			if(isset($_POST['createreserveren'])) {
+				//afhandeling formulier
+			} else {
+				$content = $this->BioscopenLogic->generateReserveOverzicht($cinema_id);
+				include "view/pages/reserverenFormulier.php";
+			}
 		}
 
 
