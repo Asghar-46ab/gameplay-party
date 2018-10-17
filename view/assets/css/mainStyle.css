@@ -160,6 +160,11 @@ input[type=submit]:hover {
     padding: 20px;
 }
 
+ 
+ .pad-0{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
 
 
 /* . */

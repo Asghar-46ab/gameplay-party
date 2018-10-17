@@ -35,15 +35,15 @@ require 'DataHandler.php';
              <div class="col-1"></div>
              <span class="col-11 bioscoopProvincie">'.$value["state"].'</span>
              <div class="col-12">
-             <div class="col-4"></div>
+             <div class="col-4 pad-0"></div>
              <div class="col-12 meerInfoButton" onclick=window.open("https://kinepolis.nl/bioscopen/'.$value["info_url"].'/info")>Meer info</div>
-             <div class="col-4"></div>
+             <div class="col-4 pad-0"></div>
              </div>
 
              <div class="col-12">
-             <div class="col-4"></div>
+             <div class="col-4 pad-0"></div>
              <div class="col-12 meerInfoButton" onclick=location.href="/bioscopen/showReserve/'.$value["cinema_id"].'">Reserveren</div>
-             <div class="col-4"></div>
+             <div class="col-4 pad-0"></div>
              </div>
            </div>
 
