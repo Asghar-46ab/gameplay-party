@@ -23,15 +23,5 @@
 
   </div>
 </div>
-<div class="row">
-  <div class="col-5"></div>
-  <div class="col-2 paginering">
-    <span class="paginaNummer">1</span>
-    <span class="paginaNummer">2</span>
-    <span class="paginaNummer">3</span>
-    <span class="paginaNummer">4</span>
-  </div>
-  <div class="col-5"></div>
-</div>
 <span id="bioscoopPageCheck"></span>
 <?php include 'view/partials/footer.php';?>
