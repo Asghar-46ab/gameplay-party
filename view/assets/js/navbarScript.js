@@ -1,5 +1,5 @@
-// checkt de huidige pagina en veranderd de navbarButton //
-// elke pagina heeft exist id <span id=""></span> nodig  //
+// checkCurrentPage() checks if current page has span element with id from pageCheckIdArray//
+// if so, then changes style of navbar button in the css file for that page with said id //
 function checkCurrentPage()
 {
   var navbarButton;
