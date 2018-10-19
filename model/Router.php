@@ -1,4 +1,7 @@
 <?php
+
+// Router calls the controller with method and optional parameters
+// controller, method and parameters are determined by the current url
      class Router
      {
 
@@ -43,6 +46,7 @@
               //this sets website to page home
               $classname = "Page";
               $method = "home";
+              // calls sendToDestination()
               $this->sendToDestination($classname, $method);
             }
         }
@@ -52,9 +56,9 @@
           //sets class variable to path of controller//
           $class =  APP_DIR . '/controller/' . $classname . '.php';
           require_once($class);
-          // makes instance of said class
+          // makes instance of class
           $obj = new $classname;
-          // calls class with method and params if exists
+          // calls class with method and params as an array
             die(call_user_func_array(array($obj, $method), $params));
         }
 
