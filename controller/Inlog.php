@@ -1,60 +1,64 @@
 <?php
 
-require_once 'model/CinemaLogic.php';
+	require_once 'model/CinemaLogic.php';
 
-class Inlog {
+	/**
+	 * The class which is responsible for users logging in.
+	 */
+	class Inlog 
+	{
+		
+		/**
+		 * Constructs a new inlog by initializing the cinema logic.
+		 */
+		public function __construct() 
+		{
+			$this->CinemaLogic = new CinemaLogic();
 
-    public function __construct() {
+		}	
+		
+		/**
+		 * Attempts to login a user.
+		 * @return	{@code true} if the login was successful, {@code false} otherwise.
+		 */
+		public function inlog()
+		{
+			if(isset($_POST['login-submit'])) 
+			{
+				$username = $_POST['username'];
+				$password = $_POST['psw'];
+				
+				$check = $this->CinemaLogic->checkUser($username, $password);
+				
+				if($check) {
+				} 
+				else 
+				{
+				}
+				
+				return $check;
+			} 
+			else 
+			{
+				include "view/pages/inlog.php";
+			}
+		}
 
-        $this->CinemaLogic = new CinemaLogic();
+		/**
+		 * Includes the readacti page.
+		 */
+		public function Readactie()
+		{
+			include "view/pages/readacti.php";
+		}
 
-    }
-
-    public function Login() {
-
-        if (isset($_POST['login-submit'])){
-            $username = $_POST['username'];
-            $pas = $_POST['psw'];
-
-//            var_dump($username, $pas);
-        }
-        else{
-            include "view/pages/inlog.php";
-        }
-
-
-        if($username == "hanneke" && $pas == "1234")
-        {
-             header('Location: http://localhost/Inlog/Readactie');
-
-        }
-
-        else{
-            echo "check data";
-
-        }
-
-        if ($username == "cinema" && $pas == "1234") {
-
-            header("Location: http://localhost/Inlog/Readactie");
-        }
-
-        else {
-            echo "check data";
-        }
-
-
-    }
-
-    public function Readactie()
-    {
-        include "view/pages/readacti.php";
-    }
-
-
-    public function Bioscoop(){
-        include "view/pages/cinema.php";
-    }
+		/**
+		 * Includes the cinema page.
+		 */
+		public function Bioscoop()
+		{
+			include "view/pages/cinema.php";
+		}
 
 
 
