@@ -1,16 +1,16 @@
 <?php
 
-require_once 'model/BioscopenLogic.php';
+require_once 'model/CinemaLogic.php';
 
 class Page {
 
     public function __construct() {
-        $this->BioscopenLogic = new BioscopenLogic();
+        $this->CinemaLogic = new CinemaLogic();
 
     }
 
     public function home(){
-        $content = $this->BioscopenLogic->Oeverons();
+        $content = $this->CinemaLogic->Oeverons();
         include "view/pages/home.php";
 
     }
@@ -34,7 +34,7 @@ class Page {
 			$username = $_POST['username'];
 			$password = $_POST['psw'];
 			
-			$check = $this->BioscopenLogic->checkUser($username, $password);
+			$check = $this->CinemaLogic->checkUser($username, $password);
 			
 			if($check) {
 				

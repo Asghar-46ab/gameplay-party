@@ -35,7 +35,7 @@
 <div class="row">
   <nav class="col-12 navBar">
     <li class="col-3 navButtons" id="navbarButtonHome" onclick="location.href='/Page/home'">Home</li>
-    <li class="col-3 navButtons" id="navbarButtonBioscopen" onclick="location.href='/bioscopen/ShowBioscopen'">Bioscopen</li>
+    <li class="col-3 navButtons" id="navbarButtonBioscopen" onclick="location.href='/cinema/ShowCinemas'">Bioscopen</li>
     <li class="col-3 navButtons" id="navbarButtonContact" onclick="location.href='/Page/contact'">Contact</li>
     <li class="col-3 navButtons" id="navbarButtonInlog" onclick="location.href='/Page/inlog'">Inlog</li>
   </nav>

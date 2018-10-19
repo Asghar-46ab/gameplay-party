@@ -1,12 +1,12 @@
 <?php
 
-require_once 'model/BioscopenLogic.php';
+require_once 'model/CinemaLogic.php';
 
 class Inlog {
 
     public function __construct() {
 
-        $this->BioscopenLogic = new BioscopenLogic();
+        $this->CinemaLogic = new CinemaLogic();
 
     }
 
