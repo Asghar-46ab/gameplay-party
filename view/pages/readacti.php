@@ -5,7 +5,7 @@
 
 
     <div class="w3-sidebar w3-bar-block w3-black w3-xxlarge" style="width:70px; background-color: #46a530 !important;">
-        <a href="http://localhost/Cinema/CreateCinema" class="w3-bar-item w3-button"><i class="fas fa-film"></i></a>
+        <a href="/Cinema/CreateCinema" class="w3-bar-item w3-button"><i class="fas fa-film"></i></a>
         <a href="#" class="w3-bar-item w3-button"><i class="fas fa-edit"></i></a>
     </div>
 
@@ -15,6 +15,3 @@
 <?php //include 'view/partials/footer.php';?>
 
 </div>
-
-
-

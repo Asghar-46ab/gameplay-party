@@ -28,7 +28,7 @@ require 'DataHandler.php';
 			 * Selects all cinemas from the database.
 			 * @return the query that returns all the cinemas.
 			 */
-			function readCinemas() 
+			function readCinemas()
 			{
 				$sql = "SELECT * FROM `cinemas`";
 				$stmt = $this->DataHandler->Read($sql);
@@ -41,11 +41,11 @@ require 'DataHandler.php';
 			 * @password	the password this user is going by.
 			 * @return	{@code true} if the user is valid, {@code false} otherwise.
 			 */
-			function checkUser($username, $password) 
+			function checkUser($username, $password)
 			{
 				$sql = "SELECT * FROM users";
 				$stmt = $this->DataHandler->Read($sql);
-			
+
 				$correct = false;
 				foreach ($stmt as $key => $value) {
 					if($value['user_name'] == $username && $value['password'] == $password) {
@@ -53,9 +53,9 @@ require 'DataHandler.php';
 						break;
 					}
 				}
-			
+
 				if($correct) {
-					header('Location: http://localhost/Inlog/Readactie');
+					header('Location: /Inlog/Readactie');
 				} else {
 					echo "Inlog gegevens zijn onjuist";
 				}
@@ -66,7 +66,7 @@ require 'DataHandler.php';
 			 * Generates the cinema overview by constructing the html code and all its values.
 			 * @return	a constructed html.
 			 */
-			function generateCinemaOverview() 
+			function generateCinemaOverview()
 			{
 				$html = '';
 				$array = $this->readCinemas();
@@ -94,25 +94,25 @@ require 'DataHandler.php';
 					</div>
 
 					</div>';
-		
+
 				}
 				return $html;
 			}
-		 
+
 			/**
 			 * Gets a specific cinema from the database with the {@code cinema_id} that was supplied.
 			 */
-			function getCinema($cinema_id) { 
+			function getCinema($cinema_id) {
 				$sql = "select * from cinemas WHERE cinema_id = $cinema_id";
 				$stmt = $this->DataHandler->Read($sql);
 				return $stmt;
 			}
-		 
+
 			/**
 			 * Generates the reservation overview with the {@code cinema_id} that was supplied by constructing the html code and all its values.
 			 * @return	a constructed html.
 			 */
-			function generateReservationOverview($cinema_id) 
+			function generateReservationOverview($cinema_id)
 			{
 				$html = '';//naam achternaam datum reservatie
 				$array = $this->getCinema($cinema_id);
